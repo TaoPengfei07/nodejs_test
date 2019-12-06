@@ -1,0 +1,1 @@
+docker build --no-cache --tag=registry.cn-hangzhou.aliyuncs.com/canonchain/smart_contract_test:ci --build-arg ssh_key="$(cat ~/.ssh/id_rsa)" --build-arg ssh_pub_key="$(cat ~/.ssh/id_rsa.pub)" --build-arg branch="master" .
